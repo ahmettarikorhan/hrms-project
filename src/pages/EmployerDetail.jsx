@@ -26,7 +26,7 @@ export default function EmployerDetail() {
           <div>Bu iş için uygun musun? Öyleyse hemen başvur!</div>
           <Button variant="primary">Başvur</Button>
         </Card.Body>
-        <Card.Footer >{employer?.jobAdverts?.salaryMin}</Card.Footer>
+        <Card.Footer >{employer?.jobAdverts}</Card.Footer>
       </Card>
     </div>
   );

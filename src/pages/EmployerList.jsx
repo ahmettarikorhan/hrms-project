@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link , Router, BrowserRouter} from "react-router-dom";
-import { Container, Navbar, Nav, NavDropdown, Table } from "react-bootstrap";
+import { Link} from "react-router-dom";
+import { Container, Button, Table } from "react-bootstrap";
 import EmployerService from "../services/employerService";
 
 export default function EmployerList() {
@@ -28,8 +28,9 @@ export default function EmployerList() {
             <tbody key={employer.id}>
               <tr>
                 <td>{employer.id}</td>
-                <td><Link to={`/employers/${employer.id}`}>{employer.companyName}</Link></td>
+                <td>{employer.companyName}</td>
                 <td>{employer.email}</td>
+                <td><Link to={`/employers/${employer.id}`}><Button size="sm" variant="dark">Inspect</Button></Link></td>
               </tr>
             </tbody>
           ))}

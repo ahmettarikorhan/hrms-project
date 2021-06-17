@@ -9,7 +9,7 @@ export default function Navi() {
   const history = useHistory();
   function handleSignOut() {
     setIsAuthhenticated(false);
-    //history.push("/")
+    history.push("/")
   }
   function handleSignIn() {
     setIsAuthhenticated(true);
