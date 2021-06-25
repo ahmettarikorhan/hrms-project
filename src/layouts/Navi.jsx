@@ -19,7 +19,7 @@ export default function Navi() {
       <Navbar bg="info" expand="lg">
         <Container>
           <Navbar.Brand href="/" className="font-weight-bolder">
-            Human Resources Management System
+              Human Resources Management System
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

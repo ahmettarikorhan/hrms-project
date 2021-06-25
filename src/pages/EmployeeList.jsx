@@ -33,7 +33,7 @@ export default function EmployeeList() {
                 <td>{employee?.firstName}</td>
                 <td>{employee?.lastName}</td>
                 <td>{employee?.email}</td>
-                <td><Link to={`/employees/${employee.id}`}><Button size="sm" variant="dark">Inspect</Button></Link></td>
+                <td><Link to={`/employees/${employee.id}`}><Button size="sm" variant="info">Inspect</Button></Link></td>
               </tr>
             </tbody>
           ))}

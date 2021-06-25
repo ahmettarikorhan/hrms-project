@@ -7,6 +7,7 @@ import EmployerDetail from "../pages/EmployerDetail";
 import EmployeeList from "../pages/EmployeeList";
 import EmployeeDetail from "../pages/EmployeeDetail";
 import Welcome from "../pages/Welcome";
+import EmployeeAdd from "../pages/EmployeeAdd";
 
 export default function Dashboard() {
   return (
@@ -25,6 +26,7 @@ export default function Dashboard() {
               <Route exact path="/employees" component={EmployeeList} />
               <Route path="/employees/:id" component={EmployeeDetail} />
               <Route path="/cart" component={EmployeeList} />
+              <Route path="/add/employee" component={EmployeeAdd} />
           </Col>
         </Row>
       </Container>

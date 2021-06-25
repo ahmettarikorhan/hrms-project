@@ -30,7 +30,7 @@ export default function EmployerList() {
                 <td>{employer.id}</td>
                 <td>{employer.companyName}</td>
                 <td>{employer.email}</td>
-                <td><Link to={`/employers/${employer.id}`}><Button size="sm" variant="dark">Inspect</Button></Link></td>
+                <td><Link to={`/employers/${employer.id}`}><Button size="sm" variant="info">Inspect</Button></Link></td>
               </tr>
             </tbody>
           ))}
