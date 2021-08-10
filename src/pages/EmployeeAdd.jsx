@@ -21,7 +21,7 @@ export default function EmployeeAdd() {
             console.log(values)
         }}
         >
-          <Form className="mb-3">
+          <Form className="ui form">
               <AhmetTarıkTextInput  className="ui form" name="firstName" placeholder="İsim"/>
               <AhmetTarıkTextInput  className="ui form" name="lastName" placeholder="Soyisim"/>
               <AhmetTarıkTextInput className="ui form" name="email" placeholder="Email"/>

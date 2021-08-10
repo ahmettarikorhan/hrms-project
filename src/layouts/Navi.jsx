@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import { Container, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import SignedOut from "./SignedOut";
 import SignedIn from "./SignedIn";
@@ -19,7 +19,7 @@ export default function Navi() {
       <Navbar bg="info" expand="lg">
         <Container>
           <Navbar.Brand href="/" className="font-weight-bolder">
-              Human Resources Management System
+            Human Resources Management System
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

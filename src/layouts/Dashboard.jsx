@@ -8,6 +8,8 @@ import EmployeeList from "../pages/EmployeeList";
 import EmployeeDetail from "../pages/EmployeeDetail";
 import Welcome from "../pages/Welcome";
 import EmployeeAdd from "../pages/EmployeeAdd";
+import FooterPage from "./FooterPage";
+import About from "../pages/About"
 
 export default function Dashboard() {
   return (
@@ -27,9 +29,11 @@ export default function Dashboard() {
               <Route path="/employees/:id" component={EmployeeDetail} />
               <Route path="/cart" component={EmployeeList} />
               <Route path="/add/employee" component={EmployeeAdd} />
+              <Route path="/about" component={About}></Route>
           </Col>
         </Row>
       </Container>
+      {/* <FooterPage></FooterPage> */}
     </div>
   );
 }
